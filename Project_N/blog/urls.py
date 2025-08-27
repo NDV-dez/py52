@@ -7,4 +7,5 @@ from . import views #точка так как в этой же папке
 
 urlpatterns = [
     path('', views.index, name='blog'),
+    path('about/', views.about, name='about'),
 ]
